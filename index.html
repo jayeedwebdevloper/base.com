@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base by jayeed</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="animation/aos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <div id="preloader"></div>
+    <div id="scroll-top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff"
+            class="bi bi-arrow-up" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+        </svg></div>
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg align-items-center">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html"><img src="img/logo.png"
+                        alt="base"><span>base</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fff" class="bi bi-list"
+                        viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#feature">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link">Pricing <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                </svg></a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item"><a class="nav-link" href="#basic">basic</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#premium">premium</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                        <li class="nav-item transparent">
+                            <a class="nav-link disabled">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="dark-mode"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                                </svg></button><button class="light-mode"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                </svg></button>
+                        </li>
+                        <li class="nav-item sign-in">
+                            <a class="signin nav-link" data-bs-toggle="modal" data-bs-target="#signin">sign in</a>
+                        </li>
+                        <li class="nav-item sign">
+                            <a class="signup nav-link" data-bs-toggle="modal" data-bs-target="#signup">sign up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- account -->
+    <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">sign in your account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    remember me
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-mine">sign in</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">sign up new account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3">
+                        <div class="col-12">
+                            <label for="inputName4" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="inputName4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputSurName4" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="inputSurName4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputPassword4" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputPassword4" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    remember me
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-mine">sign up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <section class="banner py-5">
+        <div class="container">
+            <div class="row flex-wrap-reverse">
+                <div class="col-12 col-md-6">
+                    <div class="information animate__animated animate__fadeInLeft animate__slow">
+                        <h2>we specialize in UX/UI web development, digital marketing</h2>
+                        <p class="text-secondary">make modern and beautiful website with us in suitable price and fast
+                            delivery.
+                            we provide long time support and response for every problems. Also it will be mobile
+                            friendly or
+                            any
+                            devices. Using new generation UI and UX. So don't loss your time to check other. just trust
+                            us
+                            and
+                            try your luck.</p>
+                        <div class="row justify-content-center pt-3">
+                            <div class="col-12 col-md-6 pt-2">
+                                <a class="btn btn-mine rounded-pill px-4 py-2" href="#">get started now</a>
+                            </div>
+                            <div class="col-12 col-md-6 pt-2">
+                                <a href="#">Call us : (01230)-12345</a>
+                                <P class="text-secondary">for support or concern</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="hero">
+                        <img src="img/hero2.png" alt="base">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature -->
+    <section id="feature" class="py-5 mt-3">
+        <div class="container">
+            <div class="feature pt-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="row">
+                    <div class="col-12 col-lg-4">
+                        <div class="row align-items-center justify-content-center pt-4">
+                            <div class="col-4">
+                                <div class="feature-box1 d-flex justify-content-center align-items-center">
+                                    <img src="img/icon-01.svg" alt="support">
+                                </div>
+                            </div>
+                            <div class="col-8 pt-3 ps-3">
+                                <h5>24/7 support</h5>
+                                <p class="text-secondary">feel free to chat with us. <br>
+                                    we are always support you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row align-items-center justify-content-center pt-4">
+                            <div class="col-4">
+                                <div class="feature-box2 d-flex justify-content-center align-items-center">
+                                    <img src="img/icon-02.svg" alt="ownership">
+                                </div>
+                            </div>
+                            <div class="col-8 pt-3 ps-3">
+                                <h5>Take ownership</h5>
+                                <p class="text-secondary">Take a membership <br>
+                                    it will help grow your rank</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="row align-items-center justify-content-center pt-4">
+                            <div class="col-4">
+                                <div class="feature-box3 d-flex justify-content-center align-items-center">
+                                    <img src="img/icon-03.svg" alt="team">
+                                </div>
+                            </div>
+                            <div class="col-8 pt-3 ps-3">
+                                <h5>team work</h5>
+                                <p class="text-secondary">you can make own team <br>
+                                    team work always better.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choose pt-5">
+                <div class="row align-items-center flex-wrap-reverse">
+                    <div class="col-12 col-lg-6">
+                        <div class="sample" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-6">
+                                    <div class="two-box">
+                                        <img src="img/shape-03.svg" alt="base" class="extra">
+                                        <img src="img/about-01.png" alt="base">
+                                        <img src="img/about-02.png" alt="base">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="one-box">
+                                        <img class="shape1" src="img/shape-06.svg" alt="base">
+                                        <img class="oneitem" src="img/about-03.png" alt="base">
+                                        <img class="shape2" src="img/shape-07.svg" alt="base">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="whychoose" data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine"
+                            data-aos-duration="1000">
+                            <h5 class="py-2">why choose us</h5>
+                            <h2 class="py-3">we make our customers happy by giving best services.</h2>
+                            <p class="text-secondary py-3">it is a long established fact that a reader will be
+                                distracted by
+                                the readable content of
+                                a page when looking at its layout. the point of using own section</p>
+                            <a href="#" class="btn btn-mine rounded-pill px-4 py-2">learn more >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team -->
+    <section class="team pt-5">
+        <div class="container">
+            <div class="team-head text-center py-5">
+                <img class="shape3" src="img/shape-10.svg" alt="base">
+                <h1 data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">meet with our creative
+                    dedicated team.</h1>
+                <p class="text-secondary" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-duration="1000">
+                    here is our
+                    team who will
+                    support your 24/7 with instantly. they are expert in our team so don't
+                    worry. just trust us.</p>
+                <img class="shape4" src="img/shape-11.svg" alt="base">
+            </div>
+        </div>
+        <div class="teams">
+            <div class="container">
+                <div class="sometop">
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <div class="person">
+                                <div class="team-person">
+                                    <div class="social">
+                                        <div class="social-box">
+                                            <div class="social-link">
+                                                <a target="_blank" href="https://facebook.com"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://twitter.com" target="_blank"><i
+                                                        class="fa-brands fa-twitter"></i></a>
+                                                <a target="_blank" href="https://linkedin.com"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/team-01.png" alt="base">
+
+                                </div>
+                                <h5 class="pt-3">olivia andrium</h5>
+                                <p class="text-secondary">products manager</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="person">
+                                <div class="team-person">
+                                    <div class="social">
+                                        <div class="social-box">
+                                            <div class="social-link">
+                                                <a target="_blank" href="https://facebook.com"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://twitter.com" target="_blank"><i
+                                                        class="fa-brands fa-twitter"></i></a>
+                                                <a target="_blank" href="https://linkedin.com"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/team-02.png" alt="base">
+
+                                </div>
+                                <h5 class="pt-3">jemes kamerun</h5>
+                                <p class="text-secondary">UX/UI designer</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="person">
+                                <div class="team-person">
+                                    <div class="social">
+                                        <div class="social-box">
+                                            <div class="social-link">
+                                                <a target="_blank" href="https://facebook.com"><i
+                                                        class="fa-brands fa-facebook-f"></i></a>
+                                                <a href="https://twitter.com" target="_blank"><i
+                                                        class="fa-brands fa-twitter"></i></a>
+                                                <a target="_blank" href="https://linkedin.com"><i
+                                                        class="fa-brands fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="img/team-03.png" alt="base">
+
+                                </div>
+                                <h5 class="pt-3">avi pestarica</h5>
+                                <p class="text-secondary">web designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service -->
+    <section id="service" class="py-5">
+        <div class="container">
+            <div class="service-head" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="text-center">we offer the best quality service
+                    for you.</h1>
+                <p class="text-center text-secondary">take our services and try your luck. you won't be loss. we
+                    providing best quality service with
+                    advanced experience and modern UI. explore our services.</p>
+            </div>
+            <div class="service">
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-04.svg" alt="base">
+                            <h4 class="pt-4">crafted for startups</h4>
+                            <p class="text-secondary pt-3">Craft info: you will find over 1400 free craft projects for
+                                all
+                                seasons and major holidays or celebrations of the year</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-05.svg" alt="base">
+                            <h4 class="pt-4">high quality design</h4>
+                            <p class="text-secondary pt-3">When looking into the product design and innovation field, we
+                                usually see an overly saturated and overwhelming market that is full of different
+                                products.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-06.svg" alt="base">
+                            <h4 class="pt-4">all essential sections</h4>
+                            <p class="text-secondary pt-3">A project description is a high-level overview of why you're
+                                doing a project. The document explains a project's objectives and its essential
+                                qualities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-07.svg" alt="base">
+                            <h4 class="pt-4">speed optimization</h4>
+                            <p class="text-secondary pt-3">Optimization aims at adding or removing content from your
+                                text, to better match search engine expectations. TextOptimizer is simple, fast, and
+                                efficient</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-06.svg" alt="base">
+                            <h4 class="pt-4">fully customizable</h4>
+                            <p class="text-secondary pt-3">Customize definition, to modify or build according to
+                                individual or personal specifications or preference: to customize an automobile.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-2">
+                        <div class="service-card p-4" data-aos="fade-up" data-aos-duration="2000">
+                            <img src="img/icon-05.svg" alt="base">
+                            <h4 class="pt-4">regular update</h4>
+                            <p class="text-secondary pt-3">If you update something, you make it more modern, usually by
+                                adding new parts to it or giving new information.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- price -->
+    <section id="basic" class="py-5">
+        <div class="container">
+            <div class="basic">
+                <img src="img/shape-06.svg" alt="base">
+                <h1 class="pb-3 pt-5 text-center" data-aos="fade-down" data-aos-easing="linear"
+                    data-aos-duration="1500">we offer great
+                    affordable basic prices.</h1>
+                <p class="text-secondary text-center" data-aos="fade-down" data-aos-duration="2000">it is long time
+                    service with long time support. choose basic offer
+                    for
+                    suitable price for you.</p>
+                <img class="shape5" src="img/shape-03.svg" alt="base">
+                <br>
+                <div class="form-check form-switch d-flex justify-content-center p-0">
+                    <label class="form-check-label my-padding" for="flexSwitchCheckMonthly">bill monthly</label>
+                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckMonthly">
+                    <label class="form-check-label my-padding-2" for="flexSwitchCheckAnnually">bill annually</label>
+                </div>
+                <div class="plan">
+                    <div class="row">
+                        <div class="col-12 col-lg-4">
+                            <div class="plan-card text-center">
+                                <h4 class="pb-2">starter</h4>
+                                <h1>$149 <span>/per months</span></h1>
+                                <p class="text-secondary py-1">no credit card required</p>
+                                <a href="#" class="btn btn-pink rounded-pill px-4 py-2">try for free</a>
+                                <p class="text-secondary pb-1 pt-3">400Gb storage</p>
+                                <p class="text-secondary py-1">unlimited photos & videos</p>
+                                <p class="text-secondary py-1">exclusive support</p>
+                                <p class="pt-3">7-days free trial</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="plan-card text-center">
+                                <h4 class="pb-2">growth plan</h4>
+                                <h1>$608 <span>/per months</span></h1>
+                                <p class="text-secondary py-1">no credit card required</p>
+                                <a href="#" class="btn btn-mine rounded-pill px-4 py-2">try for free</a>
+                                <p class="text-secondary pb-1 pt-3">400Gb storage</p>
+                                <p class="text-secondary py-1">unlimited photos & videos</p>
+                                <p class="text-secondary py-1">exclusive support</p>
+                                <p class="pt-3">7-days free trial</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="plan-card text-center">
+                                <h4 class="pb-2">business</h4>
+                                <h1>$1549 <span>/per months</span></h1>
+                                <p class="text-secondary py-1">no credit card required</p>
+                                <a href="#" class="btn btn-pink rounded-pill px-4 py-2">try for free</a>
+                                <p class="text-secondary pb-1 pt-3">400Gb storage</p>
+                                <p class="text-secondary py-1">unlimited photos & videos</p>
+                                <p class="text-secondary py-1">exclusive support</p>
+                                <p class="pt-3">7-days free trial</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="shape6" src="img/shape-07.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="premium" class="py-5">
+        <div class="container">
+            <h1 class="text-center pt-5" data-aos="fade-up" data-aos-duration="3000">we offer great affordable premium
+                prices.</h1>
+            <p class="text-center text-secondary pb-5" data-aos="fade-up" data-aos-duration="3000">choose a premium
+                plans and stay with us and get regular update
+                for
+                your business or anything.</p>
+            <div class="premium">
+                <div class="row">
+                    <div class="col-12 tabs-mine">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-all-list"
+                                data-bs-toggle="list" href="#list-all" role="tab" aria-controls="list-all">all</a>
+                            <a class="list-group-item list-group-item-action" id="list-brand-list" data-bs-toggle="list"
+                                href="#list-brand" role="tab" aria-controls="list-brand">branding strategy</a>
+                            <a class="list-group-item list-group-item-action" id="list-digital-list"
+                                data-bs-toggle="list" href="#list-digital" role="tab"
+                                aria-controls="list-digital">digital experience</a>
+                            <a class="list-group-item list-group-item-action" id="list-ecommerce-list"
+                                data-bs-toggle="list" href="#list-ecommerce" role="tab"
+                                aria-controls="list-ecommerce">ecommerce</a>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="list-all" role="tabpanel"
+                                aria-labelledby="list-all-list">
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">hand writing</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-01.png" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">online echo system</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-02.png" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">home service for interior</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-03.png" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">from anywhere</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-04.png" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">any person</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-big.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">modern shop</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/digit.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">eCommerce tech</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/Ecommerce-DG.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">digital UI</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/R.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">life hacks project online</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/project-02.png" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-brand" role="tabpanel"
+                                aria-labelledby="list-brand-list">
+
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">eCommerce tech</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/Ecommerce-DG.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">digital UI</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/R.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">life hacks project online</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/project-02.png" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-digital" role="tabpanel"
+                                aria-labelledby="list-digital-list">
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">from anywhere</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-04.png" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">any person</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/blog-big.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">modern shop</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/digit.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">eCommerce tech</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/Ecommerce-DG.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">digital UI</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/R.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">life hacks project online</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/project-02.png" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-ecommerce" role="tabpanel"
+                                aria-labelledby="list-ecommerce-list">
+                                <div class="row pt-3">
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-dark">eCommerce tech</h4>
+                                                        <p class="text-secondary-emphasis">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/Ecommerce-DG.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">digital UI</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/R.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4  py-3">
+                                        <div class="premium-items">
+                                            <div class="premium-price">
+                                                <div class="d-flex justify-content-center align-items-center h-100">
+                                                    <div class="item-all text-center">
+                                                        <h4 class="text-white">modern shop</h4>
+                                                        <p class="text-light">click here for take this plan
+                                                        </p>
+                                                        <a href="#" class="btn rounded-circle link-btn"><svg
+                                                                xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" fill="currentColor"
+                                                                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                                                <path fill-rule="evenodd"
+                                                                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                                            </svg></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <img src="img/digit.jpg" alt="base">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- clients -->
+    <section class="clients py-5">
+        <div class="container">
+            <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                class="text-center px-4 pb-4 pt-2">clients
+                testimonial</h1>
+            <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                class="text-center text-secondary px-5 pb-5">
+                Whether you're shopping for the best type of hiking boots, interior decorating tips, or a new favorite
+                restaurant, chances are you'll turn to review sites to find the option with the most 5-star reviews and
+                customer recommendations.
+            </p>
+            <div class="slider">
+                <div class="box-slide">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <div class="slide-img p-4">
+                                            <img src="img/testimonial.png" class="d-block w-100" alt="first">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="slide-content py-2 px-5">
+                                            <h1 class="custom-font">"</h1>
+                                            <p class="text-secondary py-4">
+                                                Esch Landscaping LLC. At the end of the day, if you're an SMB, your
+                                                testimonial page shouldn't break the bank. You don't have to build out
+                                                an
+                                                entirely new sector.
+                                            </p>
+                                            <h4>devid smith</h4>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <p class="d-inline text-secondary">founter</p>
+                                                    <a href="#" class="text-secondary d-inline">@democompany</a>
+                                                </div>
+                                                <div class="col-7 text-end"><a href="#"><img
+                                                            src="img/brand-light-02.svg" alt="demo"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <div class="slide-img p-4">
+                                            <img src="img/team-01.jpg" class="d-block w-100" alt="first">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="slide-content py-2 px-5">
+                                            <h1 class="custom-font">"</h1>
+                                            <p class="text-secondary py-4">
+                                                Esch Landscaping LLC. At the end of the day, if you're an SMB, your
+                                                testimonial page shouldn't break the bank. You don't have to build out
+                                                an
+                                                entirely new sector.
+                                            </p>
+                                            <h4>Olivia Andrium</h4>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <p class="d-inline text-secondary">product manager</p>
+                                                    <a href="#" class="text-secondary d-inline">@amd</a>
+                                                </div>
+                                                <div class="col-7 text-end"><a href="#"><img
+                                                            src="img/brand-light-03.svg" alt="demo"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-12 col-md-4">
+                                        <div class="slide-img p-4">
+                                            <img src="img/team-03.jpg" class="d-block w-100" alt="first">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="slide-content py-2 px-5">
+                                            <h1 class="custom-font">"</h1>
+                                            <p class="text-secondary py-4">
+                                                Esch Landscaping LLC. At the end of the day, if you're an SMB, your
+                                                testimonial page shouldn't break the bank. You don't have to build out
+                                                an
+                                                entirely new sector.
+                                            </p>
+                                            <h4>Avi Pestarica</h4>
+                                            <div class="row">
+                                                <div class="col-5">
+                                                    <p class="d-inline text-secondary">web designer</p>
+                                                    <a href="#" class="text-secondary d-inline">@mandiri</a>
+                                                </div>
+                                                <div class="col-7 text-end"><a href="#"><img
+                                                            src="img/brand-light-05.svg" alt="demo"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- count -->
+    <section class="count">
+        <div class="container">
+            <img class="shape7" src="img/shape-14.svg" alt="base">
+            <img class="shape8" src="img/shape-07.svg" alt="base">
+            <div class="counter text-center">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <div class="count-content">
+                            <h1>785</h1>
+                            <h5>global brand</h5>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="count-content">
+                            <h1>533</h1>
+                            <h5>happy clients</h5>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="count-content">
+                            <h1>865</h1>
+                            <h5>winning award</h5>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="count-content">
+                            <h1>346</h1>
+                            <h5>world ranking</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="shape9" src="img/shape-09.svg" alt="base">
+        </div>
+    </section>
+
+    <!-- brands -->
+    <section class="brand py-5">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="3000" class="text-center py-3">trusted by global brands</h1>
+            <p data-aos="fade-up" data-aos-duration="3000" class="text-secondary py-3 text-center">as an icon in the
+                technology industry, representing a commitment
+                to
+                innovation, progress, and customer
+                experience. Products such as them have revolutionized the way we use technology, and the brand exudes a
+                sense of sophistication and simplicity.</p>
+            <div class="row align-items-center py-3">
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-01.svg" alt="logitech">
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-02.svg" alt="dropcam">
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-03.svg" alt="amd">
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-04.svg" alt="nike">
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-05.svg" alt="mendili">
+                    </div>
+                </div>
+                <div class="col-4 col-md-2">
+                    <div class="brand-name">
+                        <img src="img/brand-light-06.svg" alt="amazon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blogs -->
+    <section class="blogs py-4">
+        <div class="container">
+            <h1 data-aos="fade-up" data-aos-duration="3000" class="text-center pb-3 pt-5">latest blogs & news</h1>
+            <p data-aos="fade-up" data-aos-duration="3000" class="text-center text-secondary py-2">Ecommerce newsletter
+                examples. Stitches n Giggles. 69b Boutique.
+                Mulligan's Pharmacy. Brick and mortar retailer newsletter</p>
+            <div class="blogs-card">
+                <div class="row">
+                    <div class="col-12 col-md-4 py-2">
+                        <div class="blog-item">
+                            <img src="img/blog-01.png" alt="blog-1">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-man.svg" alt="musharrof"></a><a
+                                            href="#" class="pt-1 text-secondary">Musharraf city</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-calender.svg"
+                                                alt="musharrof"></a><a href="#" class="pt-1 text-secondary">25 Dec
+                                            2025</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-3"><a href="#" class="text-start">free advertising for your online
+                                    business</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 py-2">
+                        <div class="blog-item">
+                            <img src="img/blog-02.png" alt="blog-1">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-man.svg" alt="musharrof"></a><a
+                                            href="#" class="pt-1 text-secondary">Musharraf city</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-calender.svg"
+                                                alt="musharrof"></a><a href="#" class="pt-1 text-secondary">25 Dec
+                                            2025</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-3"><a href="#" class="text-start">9 simple ways to improve your design
+                                    skills</a></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 py-2">
+                        <div class="blog-item">
+                            <img src="img/blog-03.png" alt="blog-1">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-man.svg" alt="musharrof"></a><a
+                                            href="#" class="pt-1 text-secondary">Musharraf city</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex align-items-center py-2"><a class="text-secondary py-2"
+                                            href="#"><img class="px-2" src="img/icon-calender.svg"
+                                                alt="musharrof"></a><a href="#" class="pt-1 text-secondary">25 Dec
+                                            2025</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-3"><a href="#" class="text-start">tips to quickly improve your coding
+                                    speed</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <div class="contact-us py-5">
+                <div class="contact-shape"><img src="img/shape-06.svg" alt="base"></div>
+                <div class="contact-head" data-aos="fade-up" data-aos-duration="2000">
+                    <h1 class="text-center py-2">let's stay connected</h1>
+                    <p class="text-secondary text-center py-3">feel free to send us your feedback or suggestion. and ask
+                        what you need or subscribe us for get update.</p>
+                </div>
+                <div class="contact-shape text-end"><img class="shape10" src="img/shape-03.svg" alt="base"></div>
+                <div class="form-contact" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="row flex-wrap-reverse align-items-center">
+                        <div class="col-12 col-md-4">
+                            <div class="contact-mail">
+                                <div class="contact-shape text-end"><img class="shape10" src="img/shape-03.svg"
+                                        alt="base"></div>
+                                <div class="mail pb-3">
+                                    <h5>Email address</h5>
+                                    <a href="#">support@base.com</a>
+                                </div>
+                                <div class="location pb-3">
+                                    <h5>office location</h5>
+                                    <a href="#">74/A green road, california</a>
+                                </div>
+                                <div class="phone pb-3">
+                                    <h5>phone number</h5>
+                                    <a href="#">+1 (1234)-123456</a>
+                                </div>
+                                <div class="skype pb-3">
+                                    <h5>skype</h5>
+                                    <a href="#">base.skype@skype</a>
+                                </div>
+                                <hr class="text-secondary bg-secondary">
+                                <div class="social-media">
+                                    <h4 class="py-2">social media</h4>
+                                    <a target="_blank" href="https://facebook.com"><i
+                                            class="fa-brands fa-facebook-f"></i></a>
+                                    <a target="_blank" href="https://twitter.com"><i
+                                            class="fa-brands fa-twitter"></i></a>
+                                    <a target="_blank" href="https://linkedin.com"><i
+                                            class="fa-brands fa-linkedin-in"></i></a>
+                                    <a target="_blank" href="https://behance.com"><i
+                                            class="fa-brands fa-behance"></i></a>
+                                </div>
+                                <div class="contact-shape text-end"><img class="shape10 shape11" src="img/shape-06.svg"
+                                        alt="base"></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-8">
+                            <div class="message">
+                                <form class="row g-3">
+                                    <div class="col-12 col-md-6 pt-2">
+                                        <label for="inputName4" class="form-label">Full Name</label>
+                                        <input type="text" class="form-control" id="inputName4" placeholder="your name">
+                                    </div>
+                                    <div class="col-12 col-md-6 pt-2">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4"
+                                            placeholder="example@domain">
+                                    </div>
+                                    <div class="col-12 col-md-6 pt-2">
+                                        <label for="inputPhone4" class="form-label">Phone number</label>
+                                        <input type="number" class="form-control" id="inputPhone4"
+                                            placeholder="+1(1234)03455">
+                                    </div>
+                                    <div class="col-12 col-md-6 pt-2">
+                                        <label for="inputSubject4" class="form-label">Subject</label>
+                                        <input type="text" class="form-control" id="inputSubject4"
+                                            placeholder="type your subject">
+                                    </div>
+                                    <div class="col-12 pt-2">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            placeholder="message"></textarea>
+                                    </div>
+                                    <div class="col-12 text-center pt-4">
+                                        <button type="submit" class="btn btn-mine rounded-pill px-4 py-2">send
+                                            message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="shape12" src="img/shape-07.svg" alt="base">
+            </div>
+        </div>
+    </section>
+
+    <!-- startup -->
+    <section class="startup py-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8 px-3">
+                    <h1 class="text-white p-4">join with 5000+ startups growing with base.</h1>
+                    <p class="text-white px-4">The goal of a business description's to introduce any reader to your
+                        company—-and to do that quickly. So when you're getting started writing this description, it's a
+                        good idea to list out the basic information that you'll need to include. </p>
+                </div>
+                <div class="col-12 col-md-4 mx-auto text-center">
+                    <button class="btn rounded-pill btn-started">get started now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row pb-4">
+                <div class="col-12 col-md-3">
+                    <div class="about">
+                        <a href="index.html"><img src="img/logo.png" alt="base"><span>base</span></a>
+                        <p class="text-secondary">creative UI/UX design we have. make for your own now.</p>
+                        <div class="meda"><a target="_blank" href="https://facebook.com"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a target="_blank" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                            <a target="_blank" href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a target="_blank" href="https://behance.com"><i class="fa-brands fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="links-base">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="quick">
+                                    <h3>quick links</h3>
+                                    <ul>
+                                        <li><a href="#">home</a></li>
+                                        <li><a href="#">product</a></li>
+                                        <li><a href="#">career <span>hiring</span></a></li>
+                                        <li><a href="#">pricing</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="f-service">
+                                    <h3>service</h3>
+                                    <ul>
+                                        <li><a href="#">web design & development</a></li>
+                                        <li><a href="#">graphics design</a></li>
+                                        <li><a href="#">digital marketing</a></li>
+                                        <li><a href="#">UI/UX design</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="f-support">
+                                    <h3>support</h3>
+                                    <ul>
+                                        <li><a href="#">company</a></li>
+                                        <li><a href="#">press media</a></li>
+                                        <li><a href="#">our blogs</a></li>
+                                        <li><a href="#contact">contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="f-news">
+                                    <h3>news letter</h3>
+                                    <p class="text-secondary">subscribe to receive future update</p>
+                                    <div class="input-group mb-3 rounded-pill">
+                                        <input type="text" class="form-control" placeholder="Email"
+                                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z" />
+                                            </svg></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <a class="px-2 text-secondary" href="#">english</a>
+                    <a class="px-2 text-secondary" href="#">privacy policy</a>
+                    <a class="px-2 text-secondary" href="#">support</a>
+                </div>
+                <div class="col-12 col-md-6 text-end">
+                    <p class="text-secondary">@2023 All right reserved by jayeed</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/java.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="animation/aos.js"></script>
+    <script> AOS.init();</script>
+    <script src="js/all.min.js"></script>
+</body>
+
+</html>

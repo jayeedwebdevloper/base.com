@@ -1,0 +1,305 @@
+@media only screen and (max-width: 1300px) {
+    .hero img {
+        top: -30%;
+        right: -10%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #feature p {
+        font-size: 14px;
+    }
+
+    .two-box .extra {
+        height: 60px;
+    }
+
+    .my-padding {
+        padding-right: 7%;
+    }
+
+    .shape5 {
+        right: 10%;
+    }
+
+    .tabs-mine {
+        width: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 1120px) {
+    .hero img {
+        top: -10%;
+        right: -10%;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    .social-box {
+        margin-top: 12%;
+    }
+
+    .tabs-mine {
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero img {
+        top: -20%;
+        right: -10%;
+        width: 100%;
+    }
+
+    .information {
+        padding-top: 10% !important;
+    }
+
+    .my-padding {
+        padding-right: 10%;
+    }
+
+    .social-box {
+        margin-top: 2%;
+    }
+
+    .list-group-item {
+        padding-bottom: 0 !important;
+        padding-top: 0 !important;
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        height: 400px;
+    }
+
+    .information {
+        padding-top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .hero {
+        height: 320px;
+    }
+
+    .shape5 {
+        right: 0;
+        top: 75%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .my-padding {
+        padding-right: 13%;
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .hero {
+        height: 220px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .hero {
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .navbar-brand {
+        width: 10%;
+    }
+
+    .navbar-brand img {
+        width: 100%;
+    }
+
+    .my-padding {
+        padding-right: 17%;
+    }
+
+    .tabs-mine {
+        width: 100%;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .one-box {
+        height: 310px;
+    }
+
+    .oneitem {
+        height: 200px;
+    }
+
+    .shape1 {
+        width: 20%;
+    }
+
+    .shape2 {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    .one-box {
+        height: 390px;
+    }
+
+    .oneitem {
+        height: 250px;
+    }
+
+    .shape1 {
+        width: 20%;
+    }
+
+    .shape2 {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 500px) {
+    .one-box {
+        height: 430px;
+    }
+
+    .oneitem {
+        height: 260px;
+    }
+
+    .shape2 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    .one-box {
+        height: 492px;
+    }
+
+    .oneitem {
+        height: 310px;
+    }
+
+    .shape2 {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blog-item {
+        height: 450px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .contact-mail {
+        height: 550px;
+    }
+
+    .message {
+        height: 690px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .one-box {
+        height: 750px;
+    }
+
+    .oneitem {
+        height: 500px;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .dark-mode,
+    .light-mode {
+        padding-top: 25%;
+    }
+
+    .one-box {
+        height: 496px;
+    }
+
+    .oneitem {
+        height: 300px;
+    }
+
+    .shape2 {
+        padding-left: 7%;
+        padding-right: 7%;
+        width: 80%;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .one-box {
+        height: 600px;
+    }
+
+    .oneitem {
+        height: 380px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .one-box {
+        height: 705px;
+    }
+
+    .oneitem {
+        height: 465px;
+    }
+
+    .shape7 {
+        width: 4%;
+    }
+
+}
+
+@media only screen and (min-width: 1550px) {
+    .hero img {
+        top: -70%;
+        right: -15%;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+    .hero img {
+        top: -35%;
+        right: -5%;
+        width: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 2000px) {
+    .hero img {
+        top: -32%;
+        right: -5%;
+        width: 30%;
+    }
+
+
+}
