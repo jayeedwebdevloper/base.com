@@ -174,3 +174,7 @@ $(window).scroll(function () {
 $('#scroll-top').click(function () {
     $('html, body').scrollTop('slow');
 });
+var loader = document.getElementById('preloader');
+window.addEventListener('load', function () {
+    loader.style.display = 'none';
+});
