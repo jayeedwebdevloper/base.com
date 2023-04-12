@@ -533,7 +533,9 @@ header {
 .link-btn:hover {
     background: #3547a4;
 }
-
+.following {
+    overflow: hidden;
+}
 /* clients */
 
 .custom-font {
